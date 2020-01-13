@@ -1,0 +1,206 @@
+#Competitive question
+#Question 1
+# Your task is pretty simple , given a string S , find the total count of numbers present in the digit.
+#
+# Input
+#
+# The first line contains T , the number of test cases. The first line of each and every testc ase will contain a integer N ,
+# the length of the string . The second line of each and every test case will contain a string S of length N.
+#
+# Output
+#
+# For each and every testcase , output the total count of numbers present in the string.
+#
+# Constraints
+#
+# 0 < T < 200
+#
+# 0 < N < 10000
+#
+# SAMPLE INPUT
+# 1
+# 26
+# sadw96aeafae4awdw2wd100awd
+#
+# SAMPLE OUTPUT
+# 4
+
+###############################################################################################################################################################
+
+# Question 2
+# Given an array of integers . Check if all the numbers between minimum and maximum number in array exist's within the array.
+#
+# Print 'YES' if numbers exist otherwise print 'NO'(without quotes).
+#
+# Input:
+# Integer N denoting size of array
+# Next line contains N space separated integers denoting elements in array
+#
+# Output:
+# Output your answer
+#
+# Constraints:
+# 1 <= N <= 1000
+#
+# 1 <= a[i] <= 100
+#
+# SAMPLE INPUT
+# 6
+# 4 2 1 3 5 6
+#
+# SAMPLE OUTPUT
+# YES
+
+###############################################################################################################################
+
+# Question 3
+# This time your task is simple.
+#
+# Given two integers
+# X and K, find the largest number that can be formed by changing digits at atmost K places in the number X.
+#
+# Input:
+# First line of the input contains two integers X and K separated by a single space.
+#
+# Output:
+# Print the largest number formed in a single line.
+#
+# Constraints:
+#
+# 1 ≤ X ≤ 1018
+# 0 ≤ K ≤ 9
+#
+# SAMPLE INPUT
+# 4483 2
+#
+# SAMPLE OUTPUT
+# 9983
+
+###################################################################################################################################
+
+# Question 4
+# Little Jhool always wanted to have some psychic powers so that he could showoff his skills, and magic to people and 
+# impress them. (Specially, his girlfriend Big Jhool!) But, in spite all his efforts, hardwork, dedication, Googling,
+# watching youtube videos he couldn't garner any psychic abilities!
+#
+# He knew everyone was making fun of him, so to stop all of that - he came up with a smart plan. Anyone who came to him
+# to know about their future, he asked them to write a binary number for him - and then, he smartly told them if the future
+# for that person had good in store, or bad.
+#
+# The algorithm which Little Jhool follows is, as following:
+#
+# If the binary number written by the person has six consecutive 0s, or 1s, his future is bad.
+# Otherwise, he says that their future is good.
+#
+# Input format:
+# Single line contains a binary number.
+# Output format:
+#
+# You need to print "Good luck!" (Without quotes, and WITH exclamation mark!) if the Jhool is going to tell them that
+# they're going to have a good time. Else, print "Sorry, sorry!" if the person is going to be told that he'll have a hard
+# time!
+#
+# Constraints:
+#
+# The binary number will be in string format, with the maximum length being 100 characters
+
+
+#################################################################################################################################
+
+# Question 5
+# The great Kian is looking for a smart prime minister. He's looking for a guy who can solve the OLP (Old Legendary Problem).
+# OLP is an old problem (obviously) that no one was able to solve it yet (like P=NP).
+#
+# But still, you want to be the prime minister really bad. So here's the problem:
+#
+# Given the sequence a1, a2, ..., an find the three values a1 + a4 + a7 + ..., a2 + a5 + a8 + ... and a3 + a6 + a9 + ... (
+# these summations go on while the indexes are valid).
+#
+# Input
+# The first line of input contains a single integer n (1 ≤ n ≤ 105).
+# The second line contains n integers a1, a2, ..., an separated by space (1 ≤ ai ≤ 109).
+#
+# Output
+# Print three values in one line (the answers).
+# SAMPLE INPUT
+# 5
+# 1 2 3 4 5
+#
+# SAMPLE OUTPUT
+# 5 7 3
+
+
+################################################################################################################################
+
+# Question 6
+# In the race for the best Internet browser, there's now a new contender for it, this browser is called the: "The Semantic
+# Mind-Reader!" After its promo on the world wide web, everyone's been desperately waiting for the browser to be released.
+# And why shouldn't they be curious about it, after all, it's the new project of our very own genius "Little Jhool!" He's
+# worked very hard for this browser, and to add new mind reading features to it.
+#
+# Apart from the various security powers it possesses, it's called the mind-reader for a reason. Here's why:
+#
+# You don't need to type 'www.' to open a website anymore.
+# Though, you still need to type '.com' to open a website.
+# The browser predicts ALL THE VOWELS in the name of the website. (Not '.com', though. Again!)
+# Obviously, this means you can type the name of a website faster and save some time.
+# Now to convince users that his browser will indeed save A LOT of time for users to open a particular website, Little
+# Jhool has asked you to prepare a report on the same.
+#
+# Input format:
+# The first line contains tc, the number of test cases.
+# The second line contains the name of websites, as a string.
+#
+# Output format:
+# You have to print the ratio of characters you would have typed in Jhool's browser, to your normal browser.
+#
+# Constraints:
+# 1 <= tc <= 100
+# 1 <= Length of the website <= 200
+#
+# NOTE: You do NOT need to print the output in its lowest format. You should print in its original fraction format.
+# The names of all the websites will be in small case only.
+#
+# Every string will start from *www. and end with *.com, so well!**
+#
+# SAMPLE INPUT
+# 2
+# www.google.com
+# www.hackerearth.com
+#
+# SAMPLE OUTPUT
+# 7/14
+# 11/19
+#
+# Explanation
+# Consider the first case:
+#
+# In Jhool's browser, you'll only have to type: ggl.com (7 characters) while in a normal browser, you'll have to
+# type www.google.com, which is 14 characters.
+
+###################################################################################################################################
+
+#Question 7
+# A string is said to be complete if it contains all the characters from a to z. Given a string, check if it complete or
+# not.
+#
+# Input
+# First line of the input contains the number of strings N. It is followed by N lines each contains a single string.
+#
+# Output
+# For each test case print "YES" if the string is complete, else print "NO"
+#
+# Constraints
+# 1 <= N <= 10
+# The length of the string is at max 100 and the string contains only the characters a to z
+
+# SAMPLE INPUT
+# 3
+# wyyga
+# qwertyuioplkjhgfdsazxcvbnm
+# ejuxggfsts
+#
+# SAMPLE OUTPUT
+# NO
+# YES
+# NO
