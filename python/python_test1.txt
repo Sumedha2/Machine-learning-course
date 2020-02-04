@@ -1,0 +1,33 @@
+1 . Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+
+2. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. 
+Sample data : 3, 5, 7, 23
+Output :
+List : ['3', ' 5', ' 7', ' 23']
+Tuple : ('3', ' 5', ' 7', ' 23')
+
+3. Write a Python program to accept a filename from the user and print the extension of that. 
+Sample filename : abc.java
+Output : java
+
+4. Write a Python program to display the first and last colors from the following list.
+color_list = ["Red","Green","White" ,"Black"]
+
+5. Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+Sample value of n is 5
+Expected Result : 615
+
+6. Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+
+7. Write a Python program to get a new string from a given string where "Is" has been added to the front. If the given string already begins with "Is" then return the string unchanged.
+
+8. Write a Python program to count the number 4 in a given list.
+
+9. Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.
+Test Data :
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+Expected Output :
+{'Black', 'White'}
+
+10. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20.
