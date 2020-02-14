@@ -1,0 +1,45 @@
+1. Write a Python program to find the occurrences of 10 most common words in a given text.
+
+2. Write a Python program to convert the key into values and values into keys
+Input example : {'a':1,'b':2,'c':3}
+Output : {1:'a',2:'b',3:'c'}
+
+3. Write a python decorator which will take two numbers as input and check if they are greater than zero and first number should be greater than second number. If this is not the case raise an error and catch in an except block. 
+
+4. Write a Python program to sort a list of tuples using Lambda.
+Original list of tuples:
+[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+
+Sorting the List of Tuples:
+[('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)] 
+
+5. Write a Python program which accepts a sequence of comma separated 4 digit binary numbers as its input and print the numbers that are divisible by 5 in a comma separated sequence. 
+Sample Data : 0100,0011,1010,1001,1100,1001
+Expected Output : 1010
+
+6. Write a Python program to print alphabet pattern 'O'.
+Expected Output:
+
+  ***                                                                   
+ *   *                                                                  
+ *   *                                                                  
+ *   *                                                                  
+ *   *                                                                  
+ *   *                                                                  
+  *** 
+
+7. Identify pairs of 3 numbers in a list which generate same number on multplying them
+Input  - Final multiplication output - 48
+[1,2,4,6,8]
+
+Result - (2,4,6)(1,6,8)
+
+8. Write a Python function to check whether a number is perfect or not. Go to the editor
+According to Wikipedia : In number theory, a perfect number is a positive integer that is equal to the sum of its proper positive divisors, that is, the sum of its positive divisors excluding the number itself (also known as its aliquot sum). Equivalently, a perfect number is a number that is half the sum of all of its positive divisors (including itself).
+Example : The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and 1 + 2 + 3 = 6. Equivalently, the number 6 is equal to half the sum of all its positive divisors: ( 1 + 2 + 3 + 6 ) / 2 = 6. The next perfect number is 28 = 1 + 2 + 4 + 7 + 14. This is followed by the perfect numbers 496 and 8128.
+
+9.Write a Python function to check whether a string is a pangram or not. Go to the editor
+Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
+For example : "The quick brown fox jumps over the lazy dog"
+
+10. 
