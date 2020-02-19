@@ -1,0 +1,27 @@
+1. Write a Python program to guess a number between 1 to 9.
+
+2. Write a Python program to count the number of even and odd numbers from a series of numbers.
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+Expected Output :
+Number of even numbers : 5
+Number of odd numbers : 4
+
+3.Write a Python program that accepts a string and calculate the number of digits and letters.
+Sample Data : Python 3.2
+Expected Output :
+Letters 6
+Digits 2
+
+4. Write a Python program to find maximum and the minimum value in a set.
+
+5. Write a Python program to create a lambda function that adds 15 to a given number passed in as an argument, also create a lambda function that multiplies argument x with argument y and print the result.
+
+6. Write a Python program to filter a list of integers using Lambda.
+
+7. Write a Python program to count the even, odd numbers in a given array of integers using Lambda.
+
+8. Write a Python program to reverse a tuple
+
+9. Write a Python program to convert a list of tuples into a dictionary.
+Input - [("x", 1), ("x", 2), ("x", 3), ("y", 1), ("y", 2), ("z", 1)] 
+Output - {'y': [1, 2], 'z': [1], 'x': [1, 2, 3]} 
